@@ -1,7 +1,14 @@
 ﻿{
   "documentName": "[Edit: it's me]*",
-  "exportedAtUtc": "2026-02-11T05:20:59.9781530Z",
+  "exportedAtUtc": "2026-02-11T05:30:03.9742599Z",
   "nodes": [
+    {
+      "id": "2e5929ab-1284-4c01-9910-62584152ca27",
+      "inputs": [],
+      "name": "Layer",
+      "outputs": [],
+      "type": "Grasshopper.Rhinoceros.Model.Params.Param_ModelLayer"
+    },
     {
       "id": "31c3c1c1-8fb7-4c66-a4fa-09a2e6bf88f5",
       "inputs": [],
@@ -15,6 +22,13 @@
       "name": "Button",
       "outputs": [],
       "type": "Grasshopper.Kernel.Special.GH_ButtonObject"
+    },
+    {
+      "id": "342a76f3-c36b-450c-af4a-c4a933473d17",
+      "inputs": [],
+      "name": "Hatch Pattern",
+      "outputs": [],
+      "type": "Grasshopper.Rhinoceros.Drafting.Params.Param_ModelHatchPattern"
     },
     {
       "id": "356a9e19-bc5e-4ddf-a193-74660a941235",
@@ -122,6 +136,20 @@
       "type": "RhinoCodePluginGH.Components.Python3Component"
     },
     {
+      "id": "8b4f993b-fc4b-4c11-acf4-cc5ee8db48fc",
+      "inputs": [],
+      "name": "Box",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Parameters.Param_Box"
+    },
+    {
+      "id": "ac0c048d-77a8-4066-97d4-c426eeac00d1",
+      "inputs": [],
+      "name": "Number Slider",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_NumberSlider"
+    },
+    {
       "id": "ae7d654f-a046-47c9-997f-5b7a4775a348",
       "inputs": [
         {
@@ -187,6 +215,20 @@
       "name": "B",
       "outputs": [],
       "type": "Grasshopper.Kernel.Special.GH_ClusterInputHook"
+    },
+    {
+      "id": "c7779a3d-89be-4dd4-b705-89a285575045",
+      "inputs": [],
+      "name": "Mesh",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Parameters.Param_Mesh"
+    },
+    {
+      "id": "d9b97e17-697a-477d-b7ef-43376708b57a",
+      "inputs": [],
+      "name": "Crv",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Parameters.Param_Curve"
     },
     {
       "id": "dc62be4f-b71f-47c6-8792-a0f6c7a0718f",
