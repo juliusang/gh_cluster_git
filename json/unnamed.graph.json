@@ -1,0 +1,758 @@
+﻿{
+  "documentName": "unnamed",
+  "exportedAtUtc": "2026-02-11T05:02:55.9093382Z",
+  "nodes": [
+    {
+      "id": "094493ad-406d-4d71-9bb0-ca62f624e65b",
+      "inputs": [
+        {
+          "access": "item",
+          "name": "Group",
+          "nickname": "G",
+          "type": "Generic Data"
+        },
+        {
+          "access": "item",
+          "name": "Style",
+          "nickname": "S",
+          "type": "Integer"
+        },
+        {
+          "access": "item",
+          "name": "NickName",
+          "nickname": "N",
+          "type": "Text"
+        },
+        {
+          "access": "item",
+          "name": "Color",
+          "nickname": "C",
+          "type": "Colour"
+        }
+      ],
+      "name": "SetGroup",
+      "outputs": [],
+      "type": "MetaHopper.SetGroup"
+    },
+    {
+      "id": "0e0ac7c3-e98d-4f36-b632-ce44a6a5abe5",
+      "inputs": [
+        {
+          "access": "item",
+          "name": "Group",
+          "nickname": "G",
+          "type": "Generic Data"
+        },
+        {
+          "access": "item",
+          "name": "Style",
+          "nickname": "S",
+          "type": "Integer"
+        },
+        {
+          "access": "item",
+          "name": "NickName",
+          "nickname": "N",
+          "type": "Text"
+        },
+        {
+          "access": "item",
+          "name": "Color",
+          "nickname": "C",
+          "type": "Colour"
+        }
+      ],
+      "name": "SetGroup",
+      "outputs": [],
+      "type": "MetaHopper.SetGroup"
+    },
+    {
+      "id": "0efed36a-2f99-496e-be56-bfe50a08aa05",
+      "inputs": [],
+      "name": "Toggle",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_BooleanToggle"
+    },
+    {
+      "id": "2162eedd-9748-4f3e-bb8c-ade3c648e9bf",
+      "inputs": [],
+      "name": "Swatch",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_ColourSwatch"
+    },
+    {
+      "id": "26584957-89b4-458c-9c65-5a742ec73c2b",
+      "inputs": [],
+      "name": "Path",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Parameters.Param_FilePath"
+    },
+    {
+      "id": "2893ab10-19ad-453d-9865-f7e062b69c89",
+      "inputs": [],
+      "name": "Number Slider",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_NumberSlider"
+    },
+    {
+      "id": "297e7888-1961-4962-929e-38be9a9e9cd4",
+      "inputs": [],
+      "name": "Swatch",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_ColourSwatch"
+    },
+    {
+      "id": "2d80d324-0b96-4a38-9357-f3bb9f39eb1b",
+      "inputs": [],
+      "name": "Swatch",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_ColourSwatch"
+    },
+    {
+      "id": "3565f830-ecb1-44dc-87c8-17848f475f1f",
+      "inputs": [
+        {
+          "access": "item",
+          "name": "Text",
+          "nickname": "T",
+          "type": "Text"
+        },
+        {
+          "access": "item",
+          "name": "Pattern",
+          "nickname": "P",
+          "type": "Text"
+        },
+        {
+          "access": "item",
+          "name": "RegEx",
+          "nickname": "R",
+          "type": "Text"
+        },
+        {
+          "access": "item",
+          "name": "Case",
+          "nickname": "C",
+          "type": "Boolean"
+        }
+      ],
+      "name": "TMatch",
+      "outputs": [
+        {
+          "access": "item",
+          "name": "Match",
+          "nickname": "M",
+          "type": "Boolean"
+        }
+      ],
+      "type": "MathComponents.StringComponents.Component_TextMatch"
+    },
+    {
+      "id": "4a3432f1-7038-4101-a9ab-b4e76d7ffc99",
+      "inputs": [
+        {
+          "access": "list",
+          "name": "List",
+          "nickname": "L",
+          "type": "Generic Data"
+        },
+        {
+          "access": "list",
+          "name": "Cull Pattern",
+          "nickname": "P",
+          "type": "Boolean"
+        }
+      ],
+      "name": "Cull",
+      "outputs": [
+        {
+          "access": "list",
+          "name": "List",
+          "nickname": "L",
+          "type": "Generic Data"
+        }
+      ],
+      "type": "MathComponents.ArrayComponents.Component_CullPattern"
+    },
+    {
+      "id": "4e4787b7-7056-45bb-bd3b-68cf7dc26de4",
+      "inputs": [
+        {
+          "access": "list",
+          "name": "List",
+          "nickname": "L",
+          "type": "Generic Data"
+        },
+        {
+          "access": "list",
+          "name": "Cull Pattern",
+          "nickname": "P",
+          "type": "Boolean"
+        }
+      ],
+      "name": "Cull",
+      "outputs": [
+        {
+          "access": "list",
+          "name": "List",
+          "nickname": "L",
+          "type": "Generic Data"
+        }
+      ],
+      "type": "MathComponents.ArrayComponents.Component_CullPattern"
+    },
+    {
+      "id": "4fe85753-5b09-42bb-a206-3aeb8cd3e60d",
+      "inputs": [],
+      "name": "Groups",
+      "outputs": [
+        {
+          "access": "list",
+          "name": "Groups",
+          "nickname": "G",
+          "type": "Generic Data"
+        },
+        {
+          "access": "list",
+          "name": "Group Styles",
+          "nickname": "S",
+          "type": "Generic Data"
+        },
+        {
+          "access": "list",
+          "name": "Nickname",
+          "nickname": "N",
+          "type": "Text"
+        },
+        {
+          "access": "list",
+          "name": "Color",
+          "nickname": "C",
+          "type": "Colour"
+        }
+      ],
+      "type": "MetaHopper.GetGroups"
+    },
+    {
+      "id": "5b6b4b9f-e093-4e22-aeab-e06a5bfd4e18",
+      "inputs": [],
+      "name": "Remote Receiver",
+      "outputs": [],
+      "type": "Telepathy.Param_RemoteReceiver"
+    },
+    {
+      "id": "5f360bff-4eba-4154-9a56-76ee794c3f0d",
+      "inputs": [],
+      "name": "unset",
+      "outputs": [],
+      "type": "Telepathy.Param_RemoteSender"
+    },
+    {
+      "id": "60ed9bab-dbdc-4a2f-8db5-562783d51578",
+      "inputs": [],
+      "name": "All Components Used",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_Panel"
+    },
+    {
+      "id": "6de03f6c-1362-4e12-a57f-035630499930",
+      "inputs": [],
+      "name": "Panel",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_Panel"
+    },
+    {
+      "id": "75913d65-b072-4937-b4bb-0f5f7a65502e",
+      "inputs": [
+        {
+          "access": "item",
+          "name": "A",
+          "nickname": "A",
+          "type": "Generic Data"
+        }
+      ],
+      "name": "hi",
+      "outputs": [
+        {
+          "access": "item",
+          "name": "Box",
+          "nickname": "B",
+          "type": "Box"
+        }
+      ],
+      "type": "Grasshopper.Kernel.Special.GH_Cluster"
+    },
+    {
+      "id": "79b9bc5c-13ba-49c2-a110-bca773c32899",
+      "inputs": [],
+      "name": "Rhino File Associated with Script",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_Panel"
+    },
+    {
+      "id": "7e657365-5a62-41e9-aa5b-8ae26ca893c8",
+      "inputs": [],
+      "name": "Panel",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_Panel"
+    },
+    {
+      "id": "869a73ec-f54e-48de-94da-ab191dba150f",
+      "inputs": [
+        {
+          "access": "item",
+          "name": "Text",
+          "nickname": "T",
+          "type": "Text"
+        },
+        {
+          "access": "item",
+          "name": "Pattern",
+          "nickname": "P",
+          "type": "Text"
+        },
+        {
+          "access": "item",
+          "name": "RegEx",
+          "nickname": "R",
+          "type": "Text"
+        },
+        {
+          "access": "item",
+          "name": "Case",
+          "nickname": "C",
+          "type": "Boolean"
+        }
+      ],
+      "name": "TMatch",
+      "outputs": [
+        {
+          "access": "item",
+          "name": "Match",
+          "nickname": "M",
+          "type": "Boolean"
+        }
+      ],
+      "type": "MathComponents.StringComponents.Component_TextMatch"
+    },
+    {
+      "id": "8e08106f-e369-4479-8a49-35194ad69feb",
+      "inputs": [],
+      "name": "Swatch",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_ColourSwatch"
+    },
+    {
+      "id": "98aeda24-c166-46b5-b033-dbd0e716a680",
+      "inputs": [],
+      "name": "Button",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_ButtonObject"
+    },
+    {
+      "id": "a2fa98cd-8362-4b41-9d78-f31fcd35de45",
+      "inputs": [],
+      "name": "Panel",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_Panel"
+    },
+    {
+      "id": "a38cebe0-147c-4742-8f67-65f7ab76d8a1",
+      "inputs": [],
+      "name": "Panel",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_Panel"
+    },
+    {
+      "id": "a8983c4f-523e-4dfd-9a2a-caf2a3a62840",
+      "inputs": [
+        {
+          "access": "item",
+          "name": "B",
+          "nickname": "B",
+          "type": "Generic Data"
+        }
+      ],
+      "name": "it's me",
+      "outputs": [
+        {
+          "access": "item",
+          "name": "Box",
+          "nickname": "B",
+          "type": "Box"
+        }
+      ],
+      "type": "Grasshopper.Kernel.Special.GH_Cluster"
+    },
+    {
+      "id": "acea4bfb-16c4-4486-8fd2-a7c52064714b",
+      "inputs": [],
+      "name": "Swatch",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_ColourSwatch"
+    },
+    {
+      "id": "b4ed6435-1443-43ff-96a2-523e21e6e4bd",
+      "inputs": [
+        {
+          "access": "item",
+          "name": "B",
+          "nickname": "B",
+          "type": "Generic Data"
+        }
+      ],
+      "name": "Cluster",
+      "outputs": [
+        {
+          "access": "item",
+          "name": "Box",
+          "nickname": "B",
+          "type": "Box"
+        }
+      ],
+      "type": "Grasshopper.Kernel.Special.GH_Cluster"
+    },
+    {
+      "id": "b6f5a6ce-3fbb-4f19-ba10-136190887ec3",
+      "inputs": [
+        {
+          "access": "item",
+          "name": "Groups",
+          "nickname": "G",
+          "type": "Generic Data"
+        },
+        {
+          "access": "item",
+          "name": "Run",
+          "nickname": "R",
+          "type": "Boolean"
+        }
+      ],
+      "name": "LblGrp",
+      "outputs": [
+        {
+          "access": "item",
+          "name": "Scribbles",
+          "nickname": "S",
+          "type": "Generic Data"
+        }
+      ],
+      "type": "MetaHopper.LabelGroups"
+    },
+    {
+      "id": "bd1faeee-52a6-4369-a3d3-b6a1ab873cc2",
+      "inputs": [],
+      "name": "Swatch",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_ColourSwatch"
+    },
+    {
+      "id": "be1204c1-42ea-444a-bf5d-b80e3903ebb3",
+      "inputs": [
+        {
+          "access": "item",
+          "name": "Export",
+          "nickname": "Export",
+          "type": "Generic Data"
+        },
+        {
+          "access": "item",
+          "name": "Path",
+          "nickname": "Path",
+          "type": "Generic Data"
+        }
+      ],
+      "name": "Py3",
+      "outputs": [
+        {
+          "access": "item",
+          "name": "out",
+          "nickname": "out",
+          "type": "Text"
+        },
+        {
+          "access": "item",
+          "name": "Json",
+          "nickname": "Json",
+          "type": "Generic Data"
+        }
+      ],
+      "type": "RhinoCodePluginGH.Components.Python3Component"
+    },
+    {
+      "id": "c9605f7d-1a3d-47fe-8927-41088e49fcd3",
+      "inputs": [
+        {
+          "access": "item",
+          "name": "Group",
+          "nickname": "G",
+          "type": "Generic Data"
+        },
+        {
+          "access": "item",
+          "name": "Style",
+          "nickname": "S",
+          "type": "Integer"
+        },
+        {
+          "access": "item",
+          "name": "NickName",
+          "nickname": "N",
+          "type": "Text"
+        },
+        {
+          "access": "item",
+          "name": "Color",
+          "nickname": "C",
+          "type": "Colour"
+        }
+      ],
+      "name": "SetGroup",
+      "outputs": [],
+      "type": "MetaHopper.SetGroup"
+    },
+    {
+      "id": "d6580181-0547-4efd-869b-e9b341507da0",
+      "inputs": [],
+      "name": "Plugin Libraries Used",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_Panel"
+    },
+    {
+      "id": "db7d39cd-e96a-4783-bb41-67e8a6490f17",
+      "inputs": [
+        {
+          "access": "item",
+          "name": "Text",
+          "nickname": "T",
+          "type": "Text"
+        },
+        {
+          "access": "item",
+          "name": "Pattern",
+          "nickname": "P",
+          "type": "Text"
+        },
+        {
+          "access": "item",
+          "name": "RegEx",
+          "nickname": "R",
+          "type": "Text"
+        },
+        {
+          "access": "item",
+          "name": "Case",
+          "nickname": "C",
+          "type": "Boolean"
+        }
+      ],
+      "name": "TMatch",
+      "outputs": [
+        {
+          "access": "item",
+          "name": "Match",
+          "nickname": "M",
+          "type": "Boolean"
+        }
+      ],
+      "type": "MathComponents.StringComponents.Component_TextMatch"
+    },
+    {
+      "id": "dd50791b-8927-4718-ba8d-b4b201132e20",
+      "inputs": [],
+      "name": "Swatch",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_ColourSwatch"
+    },
+    {
+      "id": "f0e12106-e872-4fa3-8f33-298bfc6cfbaa",
+      "inputs": [],
+      "name": "Panel",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_Panel"
+    },
+    {
+      "id": "f87c3173-f388-42de-8474-89300fc9eeb7",
+      "inputs": [
+        {
+          "access": "list",
+          "name": "List",
+          "nickname": "L",
+          "type": "Generic Data"
+        },
+        {
+          "access": "list",
+          "name": "Cull Pattern",
+          "nickname": "P",
+          "type": "Boolean"
+        }
+      ],
+      "name": "Cull",
+      "outputs": [
+        {
+          "access": "list",
+          "name": "List",
+          "nickname": "L",
+          "type": "Generic Data"
+        }
+      ],
+      "type": "MathComponents.ArrayComponents.Component_CullPattern"
+    },
+    {
+      "id": "fd7fae29-c53f-46be-ac0b-886dada40ed7",
+      "inputs": [],
+      "name": "Dataset Associated with Script",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_Panel"
+    },
+    {
+      "id": "fe3d642c-aefd-43d0-bb0e-857d04ce2fac",
+      "inputs": [
+        {
+          "access": "item",
+          "name": "x",
+          "nickname": "x",
+          "type": "Generic Data"
+        }
+      ],
+      "name": "O_GetComps2",
+      "outputs": [],
+      "type": "GhPython.Component.ZuiPythonComponent"
+    }
+  ],
+  "schema": "gh-cluster-graph-v1",
+  "wires": [
+    {
+      "fromIndex": 0,
+      "fromNode": "0ce59950-a9f0-4991-91eb-68e8ca52eecf",
+      "toIndex": 1,
+      "toNode": "4e4787b7-7056-45bb-bd3b-68cf7dc26de4"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "0efed36a-2f99-496e-be56-bfe50a08aa05",
+      "toIndex": 0,
+      "toNode": "be1204c1-42ea-444a-bf5d-b80e3903ebb3"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "2893ab10-19ad-453d-9865-f7e062b69c89",
+      "toIndex": 0,
+      "toNode": "a8983c4f-523e-4dfd-9a2a-caf2a3a62840"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "2d80d324-0b96-4a38-9357-f3bb9f39eb1b",
+      "toIndex": 3,
+      "toNode": "c9605f7d-1a3d-47fe-8927-41088e49fcd3"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "6de03f6c-1362-4e12-a57f-035630499930",
+      "toIndex": 1,
+      "toNode": "3565f830-ecb1-44dc-87c8-17848f475f1f"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "6e8e1509-33e4-4e27-baa6-6651b1683016",
+      "toIndex": 0,
+      "toNode": "0e0ac7c3-e98d-4f36-b632-ce44a6a5abe5"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "6ec427ca-fa7b-4aa0-8e03-0d943b610ec7",
+      "toIndex": 0,
+      "toNode": "3565f830-ecb1-44dc-87c8-17848f475f1f"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "6ec427ca-fa7b-4aa0-8e03-0d943b610ec7",
+      "toIndex": 0,
+      "toNode": "869a73ec-f54e-48de-94da-ab191dba150f"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "6ec427ca-fa7b-4aa0-8e03-0d943b610ec7",
+      "toIndex": 0,
+      "toNode": "db7d39cd-e96a-4783-bb41-67e8a6490f17"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "7e657365-5a62-41e9-aa5b-8ae26ca893c8",
+      "toIndex": 1,
+      "toNode": "db7d39cd-e96a-4783-bb41-67e8a6490f17"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "8870f45d-a8fd-4ccb-84f7-7d07a9f4807a",
+      "toIndex": 0,
+      "toNode": "4a3432f1-7038-4101-a9ab-b4e76d7ffc99"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "8870f45d-a8fd-4ccb-84f7-7d07a9f4807a",
+      "toIndex": 0,
+      "toNode": "4e4787b7-7056-45bb-bd3b-68cf7dc26de4"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "8870f45d-a8fd-4ccb-84f7-7d07a9f4807a",
+      "toIndex": 0,
+      "toNode": "f87c3173-f388-42de-8474-89300fc9eeb7"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "887c6abe-fc36-468d-b280-f0045824d746",
+      "toIndex": 0,
+      "toNode": "094493ad-406d-4d71-9bb0-ca62f624e65b"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "98aeda24-c166-46b5-b033-dbd0e716a680",
+      "toIndex": 0,
+      "toNode": "fe3d642c-aefd-43d0-bb0e-857d04ce2fac"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "a38cebe0-147c-4742-8f67-65f7ab76d8a1",
+      "toIndex": 1,
+      "toNode": "869a73ec-f54e-48de-94da-ab191dba150f"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "bd1faeee-52a6-4369-a3d3-b6a1ab873cc2",
+      "toIndex": 3,
+      "toNode": "0e0ac7c3-e98d-4f36-b632-ce44a6a5abe5"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "d234e988-c158-4d95-9bb1-a169ef2dcae8",
+      "toIndex": 1,
+      "toNode": "f87c3173-f388-42de-8474-89300fc9eeb7"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "dd50791b-8927-4718-ba8d-b4b201132e20",
+      "toIndex": 3,
+      "toNode": "094493ad-406d-4d71-9bb0-ca62f624e65b"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "f0e12106-e872-4fa3-8f33-298bfc6cfbaa",
+      "toIndex": 1,
+      "toNode": "be1204c1-42ea-444a-bf5d-b80e3903ebb3"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "fc16424d-5d2c-48ad-a336-899cc0e3e54b",
+      "toIndex": 1,
+      "toNode": "4a3432f1-7038-4101-a9ab-b4e76d7ffc99"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "ff82773e-b0bd-442e-9e3b-2079d1989980",
+      "toIndex": 0,
+      "toNode": "c9605f7d-1a3d-47fe-8927-41088e49fcd3"
+    }
+  ]
+}
