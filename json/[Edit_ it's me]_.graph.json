@@ -1,9 +1,16 @@
 ﻿{
   "documentName": "[Edit: it's me]*",
-  "exportedAtUtc": "2026-02-11T05:05:31.5902648Z",
+  "exportedAtUtc": "2026-02-11T05:20:59.9781530Z",
   "nodes": [
     {
       "id": "31c3c1c1-8fb7-4c66-a4fa-09a2e6bf88f5",
+      "inputs": [],
+      "name": "Button",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_ButtonObject"
+    },
+    {
+      "id": "341b765c-2c53-4edc-9fcd-0da355dd6594",
       "inputs": [],
       "name": "Button",
       "outputs": [],
@@ -24,11 +31,95 @@
       "type": "Grasshopper.Kernel.Special.GH_Panel"
     },
     {
+      "id": "395f192c-c268-4023-a5ab-f6b2c9a0fc78",
+      "inputs": [],
+      "name": "Toggle",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_BooleanToggle"
+    },
+    {
+      "id": "5518c220-8eed-4aa0-a4e5-cc92b8371493",
+      "inputs": [],
+      "name": "Toggle",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_BooleanToggle"
+    },
+    {
       "id": "5c3287f9-a965-45d9-86ec-55439a25391b",
       "inputs": [],
       "name": "B",
       "outputs": [],
       "type": "Grasshopper.Kernel.Special.GH_ClusterOutputHook"
+    },
+    {
+      "id": "60da20d1-f1ef-450d-88f0-9e766bb2ad38",
+      "inputs": [],
+      "name": "Panel",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_Panel"
+    },
+    {
+      "id": "6d119461-bb08-4db9-92d8-10d3f1d01b69",
+      "inputs": [
+        {
+          "access": "item",
+          "name": "Run",
+          "nickname": "Run",
+          "type": "Generic Data"
+        },
+        {
+          "access": "item",
+          "name": "RepoPath",
+          "nickname": "RepoPath",
+          "type": "Generic Data"
+        },
+        {
+          "access": "item",
+          "name": "JsonRelPath",
+          "nickname": "JsonRelPath",
+          "type": "Generic Data"
+        },
+        {
+          "access": "item",
+          "name": "Select",
+          "nickname": "Select",
+          "type": "Generic Data"
+        },
+        {
+          "access": "item",
+          "name": "Badges",
+          "nickname": "Badges",
+          "type": "Generic Data"
+        },
+        {
+          "access": "item",
+          "name": "ClearSelection",
+          "nickname": "ClearSelection",
+          "type": "Generic Data"
+        }
+      ],
+      "name": "Py3",
+      "outputs": [
+        {
+          "access": "item",
+          "name": "out",
+          "nickname": "out",
+          "type": "Text"
+        },
+        {
+          "access": "item",
+          "name": "Summary",
+          "nickname": "Summary",
+          "type": "Generic Data"
+        },
+        {
+          "access": "item",
+          "name": "ChangedIds",
+          "nickname": "ChangedIds",
+          "type": "Generic Data"
+        }
+      ],
+      "type": "RhinoCodePluginGH.Components.Python3Component"
     },
     {
       "id": "ae7d654f-a046-47c9-997f-5b7a4775a348",
@@ -98,6 +189,20 @@
       "type": "Grasshopper.Kernel.Special.GH_ClusterInputHook"
     },
     {
+      "id": "dc62be4f-b71f-47c6-8792-a0f6c7a0718f",
+      "inputs": [],
+      "name": "Panel",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_Panel"
+    },
+    {
+      "id": "e0aea22c-fc5c-46a2-8c42-a067f21406f8",
+      "inputs": [],
+      "name": "Panel",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_Panel"
+    },
+    {
       "id": "e857fa1a-3ec8-494b-8e54-ebcc9c4ea8d3",
       "inputs": [
         {
@@ -165,15 +270,45 @@
     },
     {
       "fromIndex": 0,
+      "fromNode": "341b765c-2c53-4edc-9fcd-0da355dd6594",
+      "toIndex": 0,
+      "toNode": "6d119461-bb08-4db9-92d8-10d3f1d01b69"
+    },
+    {
+      "fromIndex": 0,
       "fromNode": "38eca5d5-7db1-4fb9-99e3-4dfe56692534",
       "toIndex": 1,
       "toNode": "ae7d654f-a046-47c9-997f-5b7a4775a348"
     },
     {
       "fromIndex": 0,
+      "fromNode": "395f192c-c268-4023-a5ab-f6b2c9a0fc78",
+      "toIndex": 3,
+      "toNode": "6d119461-bb08-4db9-92d8-10d3f1d01b69"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "5518c220-8eed-4aa0-a4e5-cc92b8371493",
+      "toIndex": 4,
+      "toNode": "6d119461-bb08-4db9-92d8-10d3f1d01b69"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "60da20d1-f1ef-450d-88f0-9e766bb2ad38",
+      "toIndex": 1,
+      "toNode": "6d119461-bb08-4db9-92d8-10d3f1d01b69"
+    },
+    {
+      "fromIndex": 0,
       "fromNode": "b10c64d0-bc01-4398-844d-54cebd6b782c",
       "toIndex": 1,
       "toNode": "b0969f90-303d-46ce-a73f-8e81738e98e9"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "dc62be4f-b71f-47c6-8792-a0f6c7a0718f",
+      "toIndex": 2,
+      "toNode": "6d119461-bb08-4db9-92d8-10d3f1d01b69"
     }
   ]
 }
