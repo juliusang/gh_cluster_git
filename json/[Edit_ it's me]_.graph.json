@@ -1,0 +1,179 @@
+﻿{
+  "documentName": "[Edit: it's me]*",
+  "exportedAtUtc": "2026-02-11T05:05:31.5902648Z",
+  "nodes": [
+    {
+      "id": "31c3c1c1-8fb7-4c66-a4fa-09a2e6bf88f5",
+      "inputs": [],
+      "name": "Button",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_ButtonObject"
+    },
+    {
+      "id": "356a9e19-bc5e-4ddf-a193-74660a941235",
+      "inputs": [],
+      "name": "Panel",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_Panel"
+    },
+    {
+      "id": "38eca5d5-7db1-4fb9-99e3-4dfe56692534",
+      "inputs": [],
+      "name": "Panel",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_Panel"
+    },
+    {
+      "id": "5c3287f9-a965-45d9-86ec-55439a25391b",
+      "inputs": [],
+      "name": "B",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_ClusterOutputHook"
+    },
+    {
+      "id": "ae7d654f-a046-47c9-997f-5b7a4775a348",
+      "inputs": [
+        {
+          "access": "item",
+          "name": "Export",
+          "nickname": "Export",
+          "type": "Generic Data"
+        },
+        {
+          "access": "item",
+          "name": "Path",
+          "nickname": "Path",
+          "type": "Generic Data"
+        }
+      ],
+      "name": "Py3",
+      "outputs": [
+        {
+          "access": "item",
+          "name": "out",
+          "nickname": "out",
+          "type": "Text"
+        },
+        {
+          "access": "item",
+          "name": "Json",
+          "nickname": "Json",
+          "type": "Generic Data"
+        }
+      ],
+      "type": "RhinoCodePluginGH.Components.Python3Component"
+    },
+    {
+      "id": "b0969f90-303d-46ce-a73f-8e81738e98e9",
+      "inputs": [
+        {
+          "access": "item",
+          "name": "A",
+          "nickname": "A",
+          "type": "Generic Data"
+        },
+        {
+          "access": "item",
+          "name": "B",
+          "nickname": "B",
+          "type": "Generic Data"
+        }
+      ],
+      "name": "A\u00d7B",
+      "outputs": [
+        {
+          "access": "item",
+          "name": "Result",
+          "nickname": "R",
+          "type": "Generic Data"
+        }
+      ],
+      "type": "MathComponents.OperatorComponents.Component_VariableMultiplication"
+    },
+    {
+      "id": "b10c64d0-bc01-4398-844d-54cebd6b782c",
+      "inputs": [],
+      "name": "B",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_ClusterInputHook"
+    },
+    {
+      "id": "e857fa1a-3ec8-494b-8e54-ebcc9c4ea8d3",
+      "inputs": [
+        {
+          "access": "item",
+          "name": "Base",
+          "nickname": "B",
+          "type": "Plane"
+        },
+        {
+          "access": "item",
+          "name": "X",
+          "nickname": "X",
+          "type": "Number"
+        },
+        {
+          "access": "item",
+          "name": "Y",
+          "nickname": "Y",
+          "type": "Number"
+        },
+        {
+          "access": "item",
+          "name": "Z",
+          "nickname": "Z",
+          "type": "Number"
+        }
+      ],
+      "name": "Box",
+      "outputs": [
+        {
+          "access": "item",
+          "name": "Box",
+          "nickname": "B",
+          "type": "Box"
+        }
+      ],
+      "type": "SurfaceComponents.PrimitiveComponents.Component_CenterBox"
+    }
+  ],
+  "schema": "gh-cluster-graph-v1",
+  "wires": [
+    {
+      "fromIndex": 0,
+      "fromNode": "24cbb091-bf81-41a9-8319-f90cd6bd07df",
+      "toIndex": 1,
+      "toNode": "e857fa1a-3ec8-494b-8e54-ebcc9c4ea8d3"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "24cbb091-bf81-41a9-8319-f90cd6bd07df",
+      "toIndex": 2,
+      "toNode": "e857fa1a-3ec8-494b-8e54-ebcc9c4ea8d3"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "24cbb091-bf81-41a9-8319-f90cd6bd07df",
+      "toIndex": 3,
+      "toNode": "e857fa1a-3ec8-494b-8e54-ebcc9c4ea8d3"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "31c3c1c1-8fb7-4c66-a4fa-09a2e6bf88f5",
+      "toIndex": 0,
+      "toNode": "ae7d654f-a046-47c9-997f-5b7a4775a348"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "38eca5d5-7db1-4fb9-99e3-4dfe56692534",
+      "toIndex": 1,
+      "toNode": "ae7d654f-a046-47c9-997f-5b7a4775a348"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "b10c64d0-bc01-4398-844d-54cebd6b782c",
+      "toIndex": 1,
+      "toNode": "b0969f90-303d-46ce-a73f-8e81738e98e9"
+    }
+  ]
+}

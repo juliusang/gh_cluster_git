@@ -1,6 +1,6 @@
 ﻿{
   "documentName": "unnamed",
-  "exportedAtUtc": "2026-02-11T05:02:55.9093382Z",
+  "exportedAtUtc": "2026-02-11T05:04:53.5945485Z",
   "nodes": [
     {
       "id": "094493ad-406d-4d71-9bb0-ca62f624e65b",
@@ -146,6 +146,13 @@
         }
       ],
       "type": "MathComponents.StringComponents.Component_TextMatch"
+    },
+    {
+      "id": "3c576130-337f-454c-ac33-4ae0fcbbc614",
+      "inputs": [],
+      "name": "Button",
+      "outputs": [],
+      "type": "Grasshopper.Kernel.Special.GH_ButtonObject"
     },
     {
       "id": "4a3432f1-7038-4101-a9ab-b4e76d7ffc99",
@@ -392,54 +399,6 @@
       "type": "Grasshopper.Kernel.Special.GH_ColourSwatch"
     },
     {
-      "id": "b4ed6435-1443-43ff-96a2-523e21e6e4bd",
-      "inputs": [
-        {
-          "access": "item",
-          "name": "B",
-          "nickname": "B",
-          "type": "Generic Data"
-        }
-      ],
-      "name": "Cluster",
-      "outputs": [
-        {
-          "access": "item",
-          "name": "Box",
-          "nickname": "B",
-          "type": "Box"
-        }
-      ],
-      "type": "Grasshopper.Kernel.Special.GH_Cluster"
-    },
-    {
-      "id": "b6f5a6ce-3fbb-4f19-ba10-136190887ec3",
-      "inputs": [
-        {
-          "access": "item",
-          "name": "Groups",
-          "nickname": "G",
-          "type": "Generic Data"
-        },
-        {
-          "access": "item",
-          "name": "Run",
-          "nickname": "R",
-          "type": "Boolean"
-        }
-      ],
-      "name": "LblGrp",
-      "outputs": [
-        {
-          "access": "item",
-          "name": "Scribbles",
-          "nickname": "S",
-          "type": "Generic Data"
-        }
-      ],
-      "type": "MetaHopper.LabelGroups"
-    },
-    {
       "id": "bd1faeee-52a6-4369-a3d3-b6a1ab873cc2",
       "inputs": [],
       "name": "Swatch",
@@ -630,12 +589,6 @@
     },
     {
       "fromIndex": 0,
-      "fromNode": "0efed36a-2f99-496e-be56-bfe50a08aa05",
-      "toIndex": 0,
-      "toNode": "be1204c1-42ea-444a-bf5d-b80e3903ebb3"
-    },
-    {
-      "fromIndex": 0,
       "fromNode": "2893ab10-19ad-453d-9865-f7e062b69c89",
       "toIndex": 0,
       "toNode": "a8983c4f-523e-4dfd-9a2a-caf2a3a62840"
@@ -645,6 +598,12 @@
       "fromNode": "2d80d324-0b96-4a38-9357-f3bb9f39eb1b",
       "toIndex": 3,
       "toNode": "c9605f7d-1a3d-47fe-8927-41088e49fcd3"
+    },
+    {
+      "fromIndex": 0,
+      "fromNode": "3c576130-337f-454c-ac33-4ae0fcbbc614",
+      "toIndex": 0,
+      "toNode": "be1204c1-42ea-444a-bf5d-b80e3903ebb3"
     },
     {
       "fromIndex": 0,
